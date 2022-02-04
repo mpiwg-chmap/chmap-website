@@ -110,19 +110,19 @@ function cmpEventBinding(){
 
         MapLayersController.addIntoYourLayer(layers);
 
-    })
+    });
 
     PublicMapsController.on('filteringModeStart', (filteringMode) => {
 
         MapLayersController.hideMapLayerList();
 
-    })
+    });
 
     PublicMapsController.on('placeNameSearchEnd', () => {
 
         MapLayersController.hideMapLayerList();
 
-    })
+    });
 
     //DataLayerController events
     DataLayerController.on('dataFileRead', async (layers) => {
@@ -131,7 +131,7 @@ function cmpEventBinding(){
 
         PublicMapsController.stopFiltering();
 
-        // await GeoReferencingController.clear();
+        await GeoReferencingController.clear();
 
     })
 
