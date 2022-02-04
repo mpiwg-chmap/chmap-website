@@ -1,0 +1,127 @@
+//---------------------------------------------
+//
+//  Table of Contents
+//
+//    1. Basics
+//    2. Page Layout
+//    3. Components
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Basics
+//---------------------------------------------
+
+@import "variables";
+@import "bootstrap";
+@import "fonts";
+@import "common";
+
+//---------------------------------------------
+// 2. Page Layout
+//---------------------------------------------
+
+#toolbar {
+  padding: 0px;
+
+  .btn-sm {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+#toolbar-dynamic {
+  text-align: center;
+}
+
+$chmap-accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$white}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !default;
+$chmap-accordion-button-icon-active: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !default;
+
+#sidebar {
+
+  .accordion-body {
+    padding: 0.5rem 0px 0rem 20px;
+
+    .nav-link {
+      padding: 0.5rem 0px;
+    }
+  }
+
+  .nav-link {
+    padding-left: 8px;
+  }
+
+  .accordion-button {
+
+    padding: 1rem 2px 0.5rem 8px;
+
+    &:not(.collapsed) {
+
+      color: white;
+      background-color: $chmap-default-theme-color;
+      box-shadow: none;
+
+      &::after {
+        background-image: escape-svg($chmap-accordion-button-icon-active);
+      }
+    }
+
+    &::after {
+      background-image: escape-svg($chmap-accordion-button-icon);
+    }
+
+    &:focus {
+      border-width: 0px;
+      box-shadow: none;
+    }
+  }
+
+}
+
+@media (min-width: 1200px){
+  #sidebar {
+    .accordion-button {
+      padding-right: 8px;
+    }
+  }
+}
+
+#sidebar-toggle-btn {
+
+  .bi-list {
+    display: none;
+  }
+
+  &.collapsed {
+    .bi-list {
+      display: initial;
+    }
+    .bi-chevron-left {
+      display: none;
+    }
+  }
+
+}
+
+#map {
+  height: calc(100vh - 50px);
+  width: 100%;
+  font-size: 11pt;
+}
+
+//---------------------------------------------
+// 3.Components
+//---------------------------------------------
+
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-distortableimage/dist/vendor.css";
+@import "leaflet-distortableimage/dist/leaflet.distortableimage.css";
+@import "@chmap/leaflet-extensions/src/scss/attribution-info";
+@import "@chmap/leaflet-extensions/src/scss/zoom-level-value";
+@import "@chmap/public-maps/src/scss/public-maps-panel";
+@import "@chmap/data-layer/src/scss/data-layer";
+@import "@chmap/data-layer/src/scss/leaflet-photo";
+
+.spinner-border {
+  color: $chmap-default-theme-color;
+}

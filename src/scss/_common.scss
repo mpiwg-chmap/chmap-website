@@ -1,0 +1,11 @@
+@import "variables";
+
+.default-theme {
+  color: $chmap-default-theme-color;
+  background-color: white;
+}
+
+.default-theme-dark {
+  color: white !important;
+  background-color: $chmap-default-theme-color !important;
+}
