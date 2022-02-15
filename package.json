@@ -9,9 +9,13 @@
     "clean": "rm -rf dist",
     "devServer": "nodemon --watch webpack.config.js --exec npx webpack serve --mode=development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "gis",
+    "map",
+    "leaflet"
+  ],
+  "author": "calvin yeh",
+  "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.16.7",
     "@babel/runtime-corejs3": "^7.16.8",
@@ -20,9 +24,8 @@
     "file-saver": "^2.0.5",
     "leaflet": "^1.7.1",
     "leaflet-distortableimage": "^0.21.7",
-    "leaflet.markercluster": "^1.5.3",
-    "leaflet-providers": "^1.13.0"
-
+    "leaflet-providers": "^1.13.0",
+    "leaflet.markercluster": "^1.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.8",
