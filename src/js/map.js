@@ -14,7 +14,7 @@ const initialized = { aboutModal: false };
 
 function initMap() {
 
-    MapLayersController.init();
+    MapLayersController.init('map');
 
     const map = MapLayersController.getMap();
 

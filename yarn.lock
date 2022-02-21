@@ -924,40 +924,40 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@chmap/data-layer@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@chmap/data-layer/-/data-layer-1.0.0.tgz#1ed296657afb3b0b325e60bf5ebdfde738eb608e"
-  integrity sha512-1gdfxzc2Uogfkep35sai1Vq4zTL1F6w5Aj2tF8DDko7d66Dr+IAFqkv8MfRWkE5wWTE2vqI7hTAhn2TJGyyRvg==
+"@chmap/data-layer@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@chmap/data-layer/-/data-layer-1.0.1.tgz#7752fe1dcb7c3938d3c83d5d8d595372cb32dc19"
+  integrity sha512-+UqYc2FQsegTAx+MctHDRDpEG+alkFVWK24T7YSSdbKfUnGc1Df8mALcsc9pi3YClOQSY6PGmYDCoOe28NuR2A==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
-    "@chmap/leaflet-extensions" "^1.0.1"
-    "@chmap/utilities" "^1.0.1"
+    "@chmap/leaflet-extensions" "^1.0.3"
+    "@chmap/utilities" "^1.0.2"
     bootstrap "^5.1.3"
     bootstrap-icons "^1.8.0"
     datalib "^1.9.3"
     leaflet "^1.7.1"
     leaflet.markercluster "^1.5.3"
 
-"@chmap/geo-referencing@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@chmap/geo-referencing/-/geo-referencing-1.0.2.tgz#979024caa23762374aaa064734ea2922a773412a"
-  integrity sha512-49X3E9ObR+1x7QG24oDbBVIZaASJzmrNchwPO+AXOnmMrbfH7ZkHbUcSMOx5DEsAc36ehj56Ku7Nz0kgRAuR8A==
+"@chmap/geo-referencing@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@chmap/geo-referencing/-/geo-referencing-1.0.3.tgz#25f48b43a78a55bd2bd25450ff547a72ebd36fb2"
+  integrity sha512-CPML8HdP4foRV7HB9yGI0iIjd84wOWqMr8wHelEi6ItRjkPQW3jpkiugMS4ovtw0tTwO1jjFad/UEKyXSTFCow==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
-    "@chmap/leaflet-extensions" "^1.0.2"
-    "@chmap/utilities" "^1.0.1"
+    "@chmap/leaflet-extensions" "^1.0.3"
+    "@chmap/utilities" "^1.0.2"
     bootstrap "^5.1.3"
     bootstrap-icons "^1.8.0"
     file-saver "^2.0.5"
     leaflet "^1.7.1"
     leaflet-distortableimage "^0.21.7"
 
-"@chmap/leaflet-extensions@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@chmap/leaflet-extensions/-/leaflet-extensions-1.0.1.tgz#5cfa05f6a964d039edd3776faf90216deca712fe"
-  integrity sha512-RlNsmcmEfKKZFVMLCc8BYSMJkpYohHnxARVSRI+6aehlGYw4fE7hYiZ431VcVXu9YW/X4uuOYSWIMI0GG3np4w==
+"@chmap/leaflet-extensions@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@chmap/leaflet-extensions/-/leaflet-extensions-1.0.3.tgz#cc155d0755e7809a8fa8e54a8c4e239e43ca8327"
+  integrity sha512-VN1c4GMSatmK1/XkYQJK/5h3GuuwO9ST8Ij1v+oiEMeYMfX6oeaYWE1sWQW8+yXuxw5Dw1xR11sJxCvoHai7Kg==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
@@ -966,48 +966,36 @@
     leaflet "^1.7.1"
     leaflet-distortableimage "^0.21.7"
 
-"@chmap/leaflet-extensions@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@chmap/leaflet-extensions/-/leaflet-extensions-1.0.2.tgz#1cde1f948bc641264462d299305622ac5d088fa4"
-  integrity sha512-5UfuECmFhSy/7qyf5hsXVLwat8wb7DczF1PXL7As2o95a5lNz6aX+RsEUONuOfUk7gYtQpMC7acXtguhbXSVtQ==
+"@chmap/leaflet-layers-panel@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@chmap/leaflet-layers-panel/-/leaflet-layers-panel-1.0.3.tgz#e6a88318eb2c3186d8012b67a3575f447df1f1b1"
+  integrity sha512-kSwXi66UL6mWa/XEsEdYRnDFFFBv+JV9ZEDi9YyA6DiocY3AeDMWiU3dd3H+vfkV/QArPuwwlsJJWnPt1lWn/A==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
-    bootstrap "^5.1.3"
-    bootstrap-icons "^1.7.2"
-    leaflet "^1.7.1"
-    leaflet-distortableimage "^0.21.7"
-
-"@chmap/leaflet-layers-panel@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@chmap/leaflet-layers-panel/-/leaflet-layers-panel-1.0.1.tgz#48f6ef14480a4b22d0007d18f2227190703abc53"
-  integrity sha512-zNqASQJl4pWgsRcmI9NMEIDLnRF13eJa/bT9m1IwidLSs9JGqE5/5nlhYuKfJ6YKvhRZILOer6nSOVvRETmL3g==
-  dependencies:
-    "@babel/runtime" "^7.16.7"
-    "@babel/runtime-corejs3" "^7.16.8"
-    "@chmap/leaflet-extensions" "^1.0.1"
-    "@chmap/utilities" "^1.0.1"
+    "@chmap/leaflet-extensions" "^1.0.3"
+    "@chmap/utilities" "^1.0.2"
     bootstrap "^5.1.3"
     leaflet "^1.7.1"
     leaflet-providers "^1.13.0"
 
-"@chmap/public-maps@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@chmap/public-maps/-/public-maps-1.0.0.tgz#8eddd86fcbaa301cf547e83409a6da3b8442a9e7"
-  integrity sha512-8Z4hqmBQ20WKmG56R7fFnjFAKjEI4lw729kq2jOSWtPyaC7pSf+y/RpYVMq88BkSlAj7MakaUAJik5GASDSslA==
+"@chmap/public-maps@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@chmap/public-maps/-/public-maps-1.0.1.tgz#e874e27d91c09097c1b7f450d028d612ab387390"
+  integrity sha512-SwdquecR/opsuoiR4WDkZEMxA3Fb0FZNkMwgHRo4fc5EJ8quB+9rNGlFZr/wvc7juO0a2aWyrCG9zevfd1CD+g==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
-    "@chmap/leaflet-extensions" "^1.0.1"
-    "@chmap/utilities" "^1.0.1"
+    "@chmap/leaflet-extensions" "^1.0.3"
+    "@chmap/utilities" "^1.0.2"
     bootstrap "^5.1.3"
     bootstrap-icons "^1.7.2"
     leaflet "^1.7.1"
 
-"@chmap/utilities@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@chmap/utilities/-/utilities-1.0.1.tgz#a1bc38c54161fa7972afd66f9f903c5035d052bc"
-  integrity sha512-Z0mJYpC9T8C5iXNrt/aV5u1aOd4kU+zVFjwWvk12NuOk/KqBJrgVslhuoisNpYJcZryJZc/KCHSnxobEE2huKg==
+"@chmap/utilities@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@chmap/utilities/-/utilities-1.0.2.tgz#a8afabd482b1108094c5a2784719db549f6c80ff"
+  integrity sha512-VB5cSO2ZAS5Fa+asKiQNNT9vfee8pNZr2wTSZ4RrhHSn1Ur4j77LePkf4WNmtV1weyrYIw06TogKZwjN8VdBiw==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
