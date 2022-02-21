@@ -924,10 +924,10 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@chmap/data-layer@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@chmap/data-layer/-/data-layer-1.0.1.tgz#7752fe1dcb7c3938d3c83d5d8d595372cb32dc19"
-  integrity sha512-+UqYc2FQsegTAx+MctHDRDpEG+alkFVWK24T7YSSdbKfUnGc1Df8mALcsc9pi3YClOQSY6PGmYDCoOe28NuR2A==
+"@chmap/data-layer@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@chmap/data-layer/-/data-layer-1.0.2.tgz#dec08617b23aed865cf94cf636fa33d4e73e08f2"
+  integrity sha512-F+35jf/PwO5FE0+uGTe8FtOoRzEp6VmyZThR8W7Er+rnmqKuNEZJSRc6BvSFR4rQy9IVZKNnLtIb889fqfT7WA==
   dependencies:
     "@babel/runtime" "^7.16.7"
     "@babel/runtime-corejs3" "^7.16.8"
