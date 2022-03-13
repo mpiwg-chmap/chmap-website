@@ -76,17 +76,6 @@ function initSidebar(){
         loadOnlineIIIFManifestFileBtn: sidebar.querySelector('#loadOnlineIIIFManifestFileBtn'),
     })
 
-    //User Guide
-    sidebar.querySelector('#userGuideBtn')
-    .onclick = async (e) => {
-
-        e.preventDefault();
-
-        const { Notification } = await import("@chmap/utilities");
-
-        Notification.show('Under construction ');
-    }
-
     //About
     sidebar.querySelector('#aboutModalBtn')
     .onclick = async (e) => {
