@@ -21,7 +21,7 @@
     "@babel/runtime-corejs3": "^7.16.8",
     "@chmap/data-layer": "^1.0.3",
     "@chmap/geo-referencing": "^1.0.4",
-    "@chmap/leaflet-layers-panel": "^1.0.3",
+    "@chmap/leaflet-layers-panel": "^1.0.4",
     "@chmap/public-maps": "^1.0.1",
     "@chmap/utilities": "^1.0.2",
     "bootstrap": "^5.1.3",
